@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('../wallpaperflare.com_wallpaper\ \(4\).jpg') no-repeat;
+  background-size: cover;
+
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to top, #007f4f 0%, #f3f32a 100%);
+  /* Adjust the height as needed */
+}
+
+#calculator {
+  /* Calculator styles */
+  text-align: center;
+  border: solid 1px;
+  padding: 4rem 1.5rem 4rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2rem #cbcaca;
+  background: #fff;
+  background: linear-gradient(to top, #007f4f 0%, #f3f32a 100%);
+}
+
+#tableCenter {
+  margin-bottom: 2rem;
+}
+
+#result {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-style: ridge;
+  box-shadow: 0px 0px 2rem #cbcaca;
+  border-radius: 5px;
+}
+
+#link {
+  background: transparent;
+  padding: 1.5rem;
+  text-align: center;
+  width: 5rem;
+  color: aliceblue;
+  background: #616060;
+  border-radius: 0.46rem;
+}
+
+#link:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 20px #f0f2f2;
+  background: #0ddf48;
+}
+
+#liking:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 5px #fff;
+  background: #0485ca;
+}
+
+#links {
+  height: 8.5rem;
+  width: 5rem;
+  background: #0485ca;
+}
+
+#links:hover {
+  transform: translateY(-10px);
+  background: #007f4f;
+}
+
+#liking {
+  background: transparent;
+  padding: 1.5rem;
+  text-align: center;
+  width: 5rem;
+  color: aliceblue;
+  background: #4f4f4f;
+  border-radius: 0.46rem;
+}
+
+#backColorChosen {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background: #616060;
+  color: #000;
+}
+
+#colorChosen {
+  padding: 0.5rem 1.2rem;
+}
+
+#colorChosen1 {
+  padding: 0.5rem 1.2rem;
+}
+
+#colorChosen2 {
+  padding: 0.5rem 1.2rem;
+}
+
+#colorChosen3 {
+  padding: 0.5rem 1.2rem;
+}
+
+#colorChosen:hover {
+  transform: translateY(-5px);
+  transition: all ease 0.53s;
+  box-shadow: 0px 10px 10px #616060;
+  background: #000;
+  color: #fff;
+}
+
+#colorChosen1:hover {
+  transform: translateY(-5px);
+  transition: all ease 0.53s;
+  box-shadow: 0px 10px 10px #616060;
+  background: #000;
+  color: #fff;
+}
+
+#colorChosen2:hover {
+  transform: translateY(-5px);
+  transition: all ease 0.53s;
+  box-shadow: 0px 10px 10px #616060;
+  background: #000;
+  color: #fff;
+}
+
+#colorChosen3:hover {
+  transform: translateY(-5px);
+  transition: all ease 0.53s;
+  box-shadow: 0px 10px 10px #616060;
+  background: #000;
+  color: #fff;
+}
