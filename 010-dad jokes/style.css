@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color:#686de0;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  border: solid 1px;
+  padding: 3.2rem 14.2rem;
+  background: #fff;
+  border-radius: 0.7rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  opacity: 0.5;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.joke {
+  margin: 3.2rem;
+  font-size: 2rem;
+}
+
+.btn {
+  color: #fff;
+  padding: 0.90rem 2.5rem;
+  background: #9f61ea;
+  border: transparent;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+}
