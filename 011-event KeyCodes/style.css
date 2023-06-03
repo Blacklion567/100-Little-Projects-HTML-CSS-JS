@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #161b22;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.key {
+  background: #eefe;
+  box-shadow: 1px 1px 3px #ffffffb0;
+  align-items: center;
+  display: inline-flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  margin: 1rem;
+  min-width: 20vh;
+  position: relative;
+}
+
+.key small {
+  position: absolute;
+  top: -2rem;
+  text-align: center;
+  width: 100%;
+  color: #eeff;
+  font-size: 1rem;
+}
+
+.red {
+  color: #ab5052;
+}
+
+.green {
+  color: #60986f;
+}
