@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: steelblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+
+}
+
+.empty {
+  border: 3px solid;
+  height: 20vh;
+  width: 9.38em;
+  background: #f60404;
+  margin: 10px;
+}
+
+.fill {
+  background: #0cf604;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.hold {
+  border: solid 5px #ccc;
+}
+
+.hovered {
+  background: #333;
+  border: #fff;
+  border-style: dashed;
+}
+
+@media (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+}
