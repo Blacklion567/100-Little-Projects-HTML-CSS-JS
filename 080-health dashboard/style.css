@@ -72,7 +72,7 @@ p {
 .container>div:nth-of-type(6),
 .container>div:nth-of-type(9),
 .container>div:nth-of-type(10) {
-  grid-column: span 3;
+  grid-column: span 2;
 }
 
 @media (min-width: 768px) {
